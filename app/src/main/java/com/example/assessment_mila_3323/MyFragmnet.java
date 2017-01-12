@@ -39,7 +39,7 @@ public class MyFragmnet extends Fragment {
                              Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        View view = inflater.inflate(R.layout.fragmnet_layout, container, false);
+        View view = inflater.inflate(R.layout.fragment_layout, container, false);
 
         return view;
 

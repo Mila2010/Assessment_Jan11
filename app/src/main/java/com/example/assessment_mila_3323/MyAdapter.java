@@ -24,6 +24,7 @@ public class MyAdapter extends RecyclerView.Adapter {
     public MyAdapter(List<Keys> key, Activity myActivity) {
 
         this.mKey=(ArrayList)key;
+        this.mActivity=myActivity;
 
 
 
